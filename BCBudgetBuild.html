@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Budget Custom</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="NextWave Gaming CSS.css" media="screen" type="text/css" />
+        <style type="text/css">
+
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="NextWave Gaming.html">Home</a></li>
+            <li class="dropdown active">
+              <a href="NextWave Store.html" class="dropbtn">Store</a>
+              <div class="dropdown-content">
+                <a class="active" href="BCBudgetBuild.html">Budget Build</a>
+                <a href="BCNoCompBuild.html">No Compromise Build</a>
+              </div>
+              </li>
+            <li><a href="BCContact.html">Contact Us</a></li>
+            <li><a href="BCAbout.html">About Us</a></li>
+            <li><a href="NextWave CheckOut.html">Cart</a></li>
+          </ul>
+
+            <h1 style="text-align:center; color: rgb(134, 0, 0); font-size:60px; font-family: 'Courier New', Courier, monospace" >Budget Build</h1>
+        <h4 style="text-align:center"></h4>
+        <footer style="text-align: center; color:rgb(0, 0, 0)">
+          
+            </head>
+            <body>
+            
+            <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+              <img src="pics/case.jpg" style="width:25%;height:25%;">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="pics/cpu.jpg" style="width:25%;height:25%;">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="pics/motherboard.jpg" style="width:25%;height:25%;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="pics/ram.jpg" style="width:25%;height:25%;">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="pics/ssd.jpg" style="width:25%;height:25%;">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="pics/hdd.jpg" style="width:25%;height:25%;">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="pics/video_card.jpg" style="width:25%;height:25%;">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="pics/psu.jpg" style="width:25%;height:25%;">
+              </div>
+            
+
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>  
+              <span class="dot" onclick="currentSlide(6)"></span>
+              <span class="dot" onclick="currentSlide(7)"></span>
+              <span class="dot" onclick="currentSlide(8)"></span>   
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+        <p style="text-align:center; color: rgb(51, 51, 51); font-size:20px;">Featuring a Ryzen 5 2400G processor and GTX 1660, you can step up your gaming to the next level.</p> 
+        <p style="text-align:center; color: rgb(44, 44, 44); font-size:20px;" >Also includes a state of the art M.2 boot drive and high speed 1 TB 7200 rpm drive from Western Digital.</p>
+        <p style="text-align:center; color: rgb(44, 44, 44); font-size:20px;" >All this is at the low price of $749.99!</p>
+        <p style="text-align:center; color: rgb(44, 44, 44); font-size:20px;" >M.2 solid state drives are internally mounted computer expansion cards. They work in a similar manner to a laptop expansion card.</p>
+        <img src="pics/m2.png" style="width:25%;height:25%;" class="center">
+        <div class="button-container">
+        <a href="NextWave CheckOut.html" button class="btn default">Buy Now!</button> </a>
+        </div>
+		<table summary="This is a table showing the specifications of this computer.">
+            <caption style="text-align:center; color: rgb(0, 0, 0); font-size:40px;">Computer Specifications</caption>
+            <thead>
+                <tr>
+                    <th>CPU</th>
+                    <th>Motherboard</th>
+                    <th>Memory</th>
+                    <th>SSD</th>
+                    <th>HDD</th>
+                    <th>Video Card</th>
+                    <th>Case</th>
+                    <th>Power Supply</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                </tr>
+				<tr>
+                    <td colspan="8">NextWave PC ©2019</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>AMD Ryzen 5 2400G</td>
+                    <td>MSI - B450-A PRO</td>
+                    <td>ADATA - XPG Z1 16 GB (2 x 8 GB) DDR4-2400 Memory</td>
+                    <td>ADATA - XPG SX6000</td>
+                    <td>Western Digital - Caviar Blue</td>
+                    <td>EVGA - GeForce GTX 1660 6 GB XC BLACK GAMING</td>
+                    <td>Corsair - SPEC-ALPHA (White/Red)</td>
+                    <td>SeaSonic - 520 W</td>
+                </tr>
+                <tr>
+                    <td>AM4</td>
+                    <td>ATX</td>
+                    <td>288-pin DIMM</td>
+                    <td>128 GB</td>
+                    <td>1 TB</td>
+                    <td>6 GB, GDDR5, 192 bit</td>
+                    <td>ATX Mid Tower</td>
+                    <td>520 W</td>
+                </tr>
+                <tr>
+                    <td>3.6 GHz (turbo 3.9 GHz)</td>
+                    <td>AM4</td>
+                    <td>CAS 16</td>
+                    <td>M.2-2280</td>
+                    <td>3.5"</td>
+                    <td>GPU Clock: 1,530 MHz</td>
+                    <td>4 Internal 2.5" Bays</td>
+                    <td>Fully Modular</td>
+                </tr>
+                <tr>
+                    <td>4 Cores</td>
+                    <td>AMD B450</td>
+                    <td>1.2 V</td>
+                    <td>3D Nand Technology</td>
+                    <td>7200 RPM</td>
+                    <td>Memory Clock: 2,001 MHz (8,004 MHz effective)</td>
+                    <td>3 Internal 3.5" Bays</td>
+                    <td>80+ Bronze</td>
+                </tr>
+                <tr>
+                    <td>14 nm</td>
+                    <td>Up to DDR4-3466 & Crossfire Support (2 x PCIe x16) (4 x PCIe x1)</td>
+                    <td>Non-ECC Memory</td>
+                    <td>NVMe 1.2 Compatable</td>
+                    <td>64 MB Cache</td>
+                    <td>1408 / 88 / 48</td>
+                    <td>Front Panel USB 3.0</td>
+                    <td>1 PCI-E 6+2 Connector</td>
+                </tr>
+                <tr>
+                  <td>$142.99</td>
+                  <td>$84.99</td>
+                  <td>$69.99</td>
+                  <td>$30.49</td>
+                  <td>$44.89</td>
+                  <td>$214.99</td>
+                  <td>$79.99</td>
+                  <td>$64.99</td>
+              </tr>
+            </tbody>
+        </table>
+		<img src="pics/ryzen.jpg" alt="Powered by AMD Ryzen"
+		style="width=50px;height:50px;">
+    </body>
+</html>
